@@ -1,0 +1,17 @@
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/_PartialAppManifest.items
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/_BundleResourceWithLogicalName.items
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/optimized/
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhone/Debug/TimeTracker.exe.mdb
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhone/Debug/TimeTracker.exe
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/obj/iPhone/Debug/TimeTracker.exe
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/obj/iPhone/Debug/TimeTracker.exe.mdb
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhone/Debug/PCLStorage.Abstractions.dll
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhone/Debug/PCLStorage.dll
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhone/Debug/Validation.dll
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhone/Debug/PCLCrypto.dll
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhone/Debug/AWSSDK.Core.dll
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhone/Debug/AWSSDK.Lambda.dll
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhone/Debug/AWSSDK.SecurityToken.dll
+/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhone/Debug/AWSSDK.CognitoIdentity.dll

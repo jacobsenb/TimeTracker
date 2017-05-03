@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{741E155F-6697-4D1E-81AC-CA344F50611E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TimeTracker/LoginViewController.cs">
+    <Files>
+      <File FileName="TimeTracker/AppDelegate.cs" Line="16" Column="8" />
+      <File FileName="TimeTracker/LaunchScreen.storyboard" />
+      <File FileName="TimeTracker/Main.storyboard" />
+      <File FileName="TimeTracker/ViewController.cs" Line="3" Column="1" />
+      <File FileName="TimeTracker/Info.plist" />
+      <File FileName="TimeTracker/ViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="TimeTracker/Login.xib" Line="1" Column="1" />
+      <File FileName="TimeTracker/Main.cs" Line="12" Column="1" />
+      <File FileName="TimeTracker/LoginController.xib" Line="1" Column="1" />
+      <File FileName="TimeTracker/LoginViewController.cs" Line="20" Column="34" />
+      <File FileName="TimeTracker/LogTIimeController.cs" Line="67" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TimeTracker PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.53EFF27B-B121-47D0-A86F-E22326579EA5" />
+  <MultiItemStartupConfigurations />
+</Properties>
