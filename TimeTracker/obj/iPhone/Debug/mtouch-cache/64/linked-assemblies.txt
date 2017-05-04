@@ -1,0 +1,17 @@
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/PCLStorage.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/AWSSDK.Core.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/AWSSDK.CognitoIdentity.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/AWSSDK.Lambda.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/System.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/PCLStorage.Abstractions.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/AWSSDK.SecurityToken.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/System.Core.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/System.Net.Http.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/System.Runtime.Serialization.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.iOS.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/mscorlib.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/Validation.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/TimeTracker.exe
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/System.Xml.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/PCLCrypto.dll
+/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhone/Debug/mtouch-cache/64/Link/System.Xml.Linq.dll
