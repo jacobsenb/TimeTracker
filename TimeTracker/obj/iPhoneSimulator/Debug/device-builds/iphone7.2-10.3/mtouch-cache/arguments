@@ -2,9 +2,9 @@
 # [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/lib/mtouch/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/10.8.0.175/lib/mtouch/mtouch.exe \
 	--cache \
-	/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/mtouch-cache \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/mtouch-cache \
 	--sim \
-	/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/TimeTracker.app \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/bin/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/TimeTracker.app \
 	--executable \
 	TimeTracker \
 	--fastdev \
@@ -19,10 +19,10 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \
-	/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/mtouch-symbols.list \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/mtouch-symbols.list \
 	--dsym=no \
 	--gcc_flags \
-	"-Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/Entitlements.xcent" \
+	"-Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/Entitlements.xcent" \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
 	-r \
@@ -32,21 +32,29 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/Validation.2.0.6.15003/lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/Validation.2.0.6.15003/lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/PCLCrypto.1.0.2.15130/lib/Xamarin.iOS/PCLCrypto.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/PCLCrypto.1.0.2.15130/lib/Xamarin.iOS/PCLCrypto.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/AWSSDK.Core.3.3.13.2/lib/Xamarin.iOS10/AWSSDK.Core.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/AWSSDK.Core.3.3.13.2/lib/Xamarin.iOS10/AWSSDK.Core.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/AWSSDK.Lambda.3.3.5.2/lib/Xamarin.iOS10/AWSSDK.Lambda.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/AWSSDK.Lambda.3.3.5.2/lib/Xamarin.iOS10/AWSSDK.Lambda.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/AWSSDK.SecurityToken.3.3.1.6/lib/Xamarin.iOS10/AWSSDK.SecurityToken.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/AWSSDK.SecurityToken.3.3.1.6/lib/Xamarin.iOS10/AWSSDK.SecurityToken.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/AWSSDK.CognitoIdentity.3.3.2.7/lib/Xamarin.iOS10/AWSSDK.CognitoIdentity.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/AWSSDK.CognitoIdentity.3.3.2.7/lib/Xamarin.iOS10/AWSSDK.CognitoIdentity.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.IO.Compression.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.Http.dll \
+	-r \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/Newtonsoft.Json.10.0.2/lib/netstandard1.3/Newtonsoft.Json.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -312,21 +320,23 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/Validation.2.0.6.15003/lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/Validation.2.0.6.15003/lib/portable-net40+sl50+win+wpa81+wp80+Xamarin.iOS10+MonoAndroid10+MonoTouch10/Validation.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/PCLCrypto.1.0.2.15130/lib/Xamarin.iOS/PCLCrypto.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/PCLCrypto.1.0.2.15130/lib/Xamarin.iOS/PCLCrypto.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/AWSSDK.Core.3.3.13.2/lib/Xamarin.iOS10/AWSSDK.Core.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/AWSSDK.Core.3.3.13.2/lib/Xamarin.iOS10/AWSSDK.Core.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/AWSSDK.Lambda.3.3.5.2/lib/Xamarin.iOS10/AWSSDK.Lambda.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/AWSSDK.Lambda.3.3.5.2/lib/Xamarin.iOS10/AWSSDK.Lambda.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/AWSSDK.SecurityToken.3.3.1.6/lib/Xamarin.iOS10/AWSSDK.SecurityToken.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/AWSSDK.SecurityToken.3.3.1.6/lib/Xamarin.iOS10/AWSSDK.SecurityToken.dll \
 	-r \
-	/Users/brett.jacobsen/Projects/TimeTracker/packages/AWSSDK.CognitoIdentity.3.3.2.7/lib/Xamarin.iOS10/AWSSDK.CognitoIdentity.dll \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/AWSSDK.CognitoIdentity.3.3.2.7/lib/Xamarin.iOS10/AWSSDK.CognitoIdentity.dll \
+	-r \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/packages/Newtonsoft.Json.10.0.2/lib/netstandard1.3/Newtonsoft.Json.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/brett.jacobsen/Projects/TimeTracker/TimeTracker/bin/iPhoneSimulator/Debug/TimeTracker.exe \
+	/Users/brett.jacobsen/Documents/SourceCode/TimeTracker/TimeTracker/bin/iPhoneSimulator/Debug/TimeTracker.exe \

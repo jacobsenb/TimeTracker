@@ -20,7 +20,11 @@ namespace TimeTracker
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel lblTime { get; set; }
+        UIKit.UIButton btnViewData { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel lblConsultant { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -41,9 +45,14 @@ namespace TimeTracker
                 btnStart = null;
             }
 
-            if (lblTime != null) {
-                lblTime.Dispose ();
-                lblTime = null;
+            if (btnViewData != null) {
+                btnViewData.Dispose ();
+                btnViewData = null;
+            }
+
+            if (lblConsultant != null) {
+                lblConsultant.Dispose ();
+                lblConsultant = null;
             }
 
             if (postButton != null) {

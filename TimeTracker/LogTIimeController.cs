@@ -20,6 +20,8 @@ namespace TimeTracker
 		{
 			base.ViewDidLoad();
 
+			lblConsultant.Text = User;
+
 			var g = new UITapGestureRecognizer(() => View.EndEditing(true));
 			g.CancelsTouchesInView = false; //for iOS5
 
@@ -36,14 +38,6 @@ namespace TimeTracker
 
 			postButton.TouchUpInside += (sender, e) =>
 			{
-				var loggingConfig = AWSConfigs.LoggingConfig;
-				loggingConfig.LogMetrics = true;
-				loggingConfig.LogResponses = ResponseLoggingOption.Always;
-				loggingConfig.LogMetricsFormat = LogMetricsFormatOption.JSON;
-				loggingConfig.LogTo = LoggingOptions.SystemDiagnostics;
-
-				AWSConfigs.AWSRegion="ap-southeast-2";
-
 				CognitoAWSCredentials credentials = new CognitoAWSCredentials(
 				  "ap-southeast-2:b3abd62e-3efc-4d68-998e-7e528afc3368",    // Cognito Identity Pool ID
 					RegionEndpoint.APSoutheast2 // Region
@@ -51,7 +45,7 @@ namespace TimeTracker
 
 				Amazon.Lambda.Model.InvokeRequest request = new Amazon.Lambda.Model.InvokeRequest();
 				request.FunctionName = "TestTT";
-				request.Payload = "{\"id\":1,\"operation\":\"create\",\"tableName\":\"TimeTrack\",\"username\":\"" + User + "\",\"client\":\"" + txtClient.Text + "\",\"charge\":\"" + txtCharge.Text + "\",\"starttime\":\"" + StartTime + "\",\"stoptime\":\"" + DateTime.Now + "\"}";
+				request.Payload = "{\"id\":\"" + Guid.NewGuid() + "\",\"operation\":\"create\",\"tableName\":\"TimeTrackDB\",\"username\":\"" + User + "\",\"client\":\"" + txtClient.Text + "\",\"charge\":\"" + txtCharge.Text + "\",\"starttime\":\"" + StartTime.ToString("dd/mmm/yyyy hh:mm:ss")  + "\",\"stoptime\":\"" + DateTime.Now.ToString("dd/mmm/yyyy hh:mm:ss") + "\"}";
 					
 				Amazon.Lambda.AmazonLambdaClient client = new AmazonLambdaClient(credentials, RegionEndpoint.APSoutheast2);
 				var result = client.InvokeAsync(request).Result;
@@ -65,6 +59,15 @@ namespace TimeTracker
 				postButton.Hidden = true;
 				txtClient.Text = string.Empty;
 				txtCharge.Text = string.Empty;
-			};	}
+			};	
+		}
+
+		public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
+		{
+			base.PrepareForSegue(segue, sender);
+
+			ViewDataController controller = segue.DestinationViewController as ViewDataController;
+			controller.User = User;
+		}
     }
 }
